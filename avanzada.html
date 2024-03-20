@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,27 +9,35 @@
 <body>
     <header>
             <nav>
-                <a href="/index.html">Search</a>
+                <a href="index.html"><img src="images/googlelogo_color.png" alt="logo-google"></a>
+                <ul>
+                    <li><a href="index.html">Search</a></li>
+                    <li><a href=""><img src="" alt="foto-Icono"></a></li>
+                </ul>
             </nav>
         </header>
-        <form action="https://google.com/advaced_search">
-            <div>
-                <label for="as_q">todas estas palabras:</label>
-                <input type="text" name="as_q">
-            </div>
-            <div>
-                <label for="as_epq">esta palabra o frase excactas:</label>
-                <input type="text" name="as_epq">
-            </div>
-            <div>
-                <label for="as_oq">cualquiera de estas palabras</label>
-                <input type="text" name="as_oq">
-            </div>
-            <div>
-                <label for="as_eq">niguna de estas palabras</label>
-                <input type="text" name="as_eq">
-            </div>
-            <input class="ButtonSearch" type="submit" value="Buscar">
-        </form>
+        <div>
+            <form action="https://google.com/advaced_search">
+                <span>Mostrar paginas que contengan...</span>
+                <div>
+                    <label for="as_q">todas estas palabras:</label>
+                    <input type="text" name="as_q">
+                </div>
+                <div>
+                    <label for="as_epq">esta palabra o frase excactas:</label>
+                    <input type="text" name="as_epq">
+                </div>
+                <div>
+                    <label for="as_oq">cualquiera de estas palabras</label>
+                    <input type="text" name="as_oq">
+                </div>
+                <div>
+                    <label for="as_eq">niguna de estas palabras</label>
+                    <input type="text" name="as_eq">
+                </div>
+                <input class="ButtonSearch" type="submit" value="Busqueda Avanzada">
+            </form>
+        </div>
+        
 </body>
 </html>

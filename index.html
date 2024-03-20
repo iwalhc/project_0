@@ -1,23 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="Es">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="styles/style.css">
         <title>Search</title>
     </head>
     <body>
         <header>
             <nav>
-                <a href="/imagenes.html">Imagenes</a>
-                <a href="/avanzada.html">Avanzada</a>
+                <ul>
+                    <li><a href="imagenes.html">Imagenes</a></li>
+                    <li><a href="avanzada.html">Avanzada</a></li>
+                    <li><a href=""><img src="" alt="foto-Icono"></a></li>
+                </ul>
             </nav>
         </header>
 
-        <form action="https://google.com/search">
-            <input type="text" name="q"> <br>
-            <input class="ButtonSearch" type="submit" name="btnK" value="Google search">
-            <input class="ButtonSearch" type="submit" name="btnI" value="Voy a tener suerte">
-        </form>
+        <div class="container">
+            <div class="logo-div">
+                <img class="logo" src="images/googlelogo_color.png" alt="Logo-Google">
+            </div>
+            <div>
+                <form action="https://google.com/search">
+                    <input type="text" name="q"> <br>
+                    <input class="ButtonSearch" type="submit" name="btnK" value="Google search">
+                    <input class="ButtonSearch" type="submit" name="btnI" value="Voy a tener suerte">
+                </form>
+            </div>
+        </div>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="">Sobre Google</a></li>
+                    <li><a href="">Publicidad</a></li>
+                    <li><a href="">Negocio</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">Privacidad</a></li>
+                    <li><a href="">Condiciones</a></li>
+                    <li><a href="">Preferencias</a></li>
+                </ul>
+            </nav>
+        </footer>
     </body>
 </html>
