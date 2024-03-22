@@ -8,40 +8,47 @@
     </head>
     <body>
         <header>
-            <nav>
+            <nav class="nav-top">
                 <ul>
-                    <li><a href="imagenes.html">Imagenes</a></li>
+                    <li><a href="imagenes.html">Imágenes</a></li>
                     <li><a href="avanzada.html">Avanzada</a></li>
-                    <li><a href=""><img src="" alt="foto-Icono"></a></li>
+                    <li><img src="images/352059379_1498192970922951_6563420727063104080_n.jpg" alt="foto-Icono" width="25" style="border-radius: 20px;"></li>
                 </ul>
             </nav>
         </header>
-
+    <main>
         <div class="container">
             <div class="logo-div">
-                <img class="logo" src="images/googlelogo_color.png" alt="Logo-Google">
+                <img id="logo" src="images/googlelogo_color.png" alt="Logo-Google">
             </div>
-            <div>
+            <div class="form-search">
                 <form action="https://google.com/search">
-                    <input type="text" name="q"> <br>
-                    <input class="ButtonSearch" type="submit" name="btnK" value="Google search">
-                    <input class="ButtonSearch" type="submit" name="btnI" value="Voy a tener suerte">
+                    <div class="buscador">
+                        <img class="icon-search" src="./images/search-2.svg" alt="" width="20">
+                        <input class="bar" type="text" name="q">
+                    </div>
+                    <div class="btn-search">
+                        <input class="ButtonSearch" type="submit" name="btnK" value="Buscar con Google">
+                        <input class="ButtonSearch" type="submit" name="btnI" value="Voy a tener suerte">
+                    </div>                
                 </form>
             </div>
+            <p style="font-size: 12px; padding: 8px;">Ofrecido por Google: <span>Español</span></p>
         </div>
-        <footer>
-            <nav>
-                <ul>
-                    <li><a href="">Sobre Google</a></li>
-                    <li><a href="">Publicidad</a></li>
-                    <li><a href="">Negocio</a></li>
-                </ul>
-                <ul>
-                    <li><a href="">Privacidad</a></li>
-                    <li><a href="">Condiciones</a></li>
-                    <li><a href="">Preferencias</a></li>
-                </ul>
-            </nav>
-        </footer>
+    </main>
+    <footer>
+        <nav class="nav-footer">
+            <ul>
+                <li><a href="">Sobre Google</a></li>
+                <li><a href="">Publicidad</a></li>
+                <li><a href="">Negocio</a></li>
+            </ul>
+            <ul>
+                <li><a href="">Privacidad</a></li>
+                <li><a href="">Condiciones</a></li>
+                <li><a href="">Preferencias</a></li>
+            </ul>
+        </nav>
+    </footer>
     </body>
 </html>

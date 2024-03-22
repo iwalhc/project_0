@@ -3,41 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Busqueda Avanzada</title>
 </head>
 <body>
     <header>
-            <nav>
-                <a href="index.html"><img src="images/googlelogo_color.png" alt="logo-google"></a>
+            <nav class="nav-advance">
+                <a href="index.html"><img src="images/googlelogo_color.png" alt="logo-google" width="32%"></a>
                 <ul>
                     <li><a href="index.html">Search</a></li>
-                    <li><a href=""><img src="" alt="foto-Icono"></a></li>
+                    <li><img src="images/352059379_1498192970922951_6563420727063104080_n.jpg" alt="foto-Icono" width="25" style="border-radius: 20px;"></li>
                 </ul>
             </nav>
         </header>
+        <span style="color: rgb(240, 55, 55); margin: 25px 45px;  font-size: larger;">Búsqueda avanzada</span>
+            <hr>
+    <main>
         <div>
             <form action="https://google.com/advaced_search">
-                <span>Mostrar paginas que contengan...</span>
-                <div>
-                    <label for="as_q">todas estas palabras:</label>
-                    <input type="text" name="as_q">
+                <span class="span" style="color: black; font-size: larger;">Mostrar paginas que contengan...</span>
+                <div class="container-advance">
+                    <div class="advance">
+                        <label for="as_q">todas estas palabras:</label>
+                        <label for="as_epq">esta palabra o frase exacta:</label>
+                        <label for="as_oq">cualquiera de estas palabras</label>
+                        <label for="as_eq">ninguna de estas palabras</label>
+                    </div>
+                    <div class="advance">
+                        <input type="text" name="as_q">
+                        <input type="text" name="as_epq">
+                        <input type="text" name="as_oq">
+                        <input type="text" name="as_eq">
+                        <input class="ButtonSearch button-container" type="submit" value="Busqueda Avanzada">
+                    </div>
                 </div>
-                <div>
-                    <label for="as_epq">esta palabra o frase excactas:</label>
-                    <input type="text" name="as_epq">
-                </div>
-                <div>
-                    <label for="as_oq">cualquiera de estas palabras</label>
-                    <input type="text" name="as_oq">
-                </div>
-                <div>
-                    <label for="as_eq">niguna de estas palabras</label>
-                    <input type="text" name="as_eq">
-                </div>
-                <input class="ButtonSearch" type="submit" value="Busqueda Avanzada">
             </form>
         </div>
-        
+    </main>
+    <footer>
+        <nav class="nav-footer">
+            <ul>
+                <li><a href="">Sobre Google</a></li>
+                <li><a href="">Publicidad</a></li>
+                <li><a href="">Negocio</a></li>
+            </ul>
+            <ul>
+                <li><a href="">Privacidad</a></li>
+                <li><a href="">Condiciones</a></li>
+                <li><a href="">Preferencias</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
